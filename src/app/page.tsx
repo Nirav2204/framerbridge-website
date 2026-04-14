@@ -36,7 +36,7 @@ export default function Home() {
         <Navbar />
 
         {/* Hero */}
-        <section className="flex-1 flex items-center justify-center px-12 pb-[120px] pt-10 max-w-[1400px] mx-auto w-full gap-[60px] max-lg:flex-col max-lg:text-center max-lg:px-6 max-lg:pb-[100px] max-lg:gap-10">
+        <section className="flex-1 flex items-center justify-between px-12 pb-[120px] pt-10 max-w-[1400px] mx-auto w-full gap-[60px] max-lg:flex-col max-lg:text-center max-lg:justify-center max-lg:px-6 max-lg:pb-[100px] max-lg:gap-10">
           <div className="flex-1 max-w-[600px] max-lg:flex max-lg:flex-col max-lg:items-center">
             {/* Launch badge */}
             <div className="inline-flex items-center gap-2.5 px-[18px] py-2 bg-white/5 border border-white/10 rounded-full text-[13px] font-semibold tracking-widest uppercase text-gray-400 mb-8 font-[family-name:var(--font-space-grotesk)]">
@@ -53,7 +53,7 @@ export default function Home() {
 
             <p className="text-[17px] leading-relaxed text-gray-400 mb-10 max-w-[480px]">
               Seamlessly display and sell your WooCommerce products directly
-              inside Framer. No code, no complexity — just connect and sell.
+              inside Framer. No code, no complexity - just connect and sell.
             </p>
 
             <Countdown />

@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-12 py-6 max-w-[1400px] mx-auto w-full">
+    <nav className="flex justify-between items-center px-12 py-6 max-w-[1200px] mx-auto w-full">
       <a href="#" className="flex items-center gap-3 text-white no-underline">
         <div className="w-9 h-9 bg-indigo-600 rounded-[10px] flex items-center justify-center font-extrabold text-lg text-white">
           FB

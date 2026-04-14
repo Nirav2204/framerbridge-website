@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const TARGET = new Date("2026-06-25T00:00:00").getTime();
+const TARGET = Date.now() + 15 * 24 * 60 * 60 * 1000;
 
 function pad(n: number) {
   return n < 10 ? `0${n}` : `${n}`;

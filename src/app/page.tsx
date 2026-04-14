@@ -16,10 +16,6 @@ const features = [
     label: "Real-time Products",
     icon: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z",
   },
-  {
-    label: "Checkout in Framer",
-    icon: "M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z",
-  },
 ];
 
 export default function Home() {
@@ -36,12 +32,12 @@ export default function Home() {
         <Navbar />
 
         {/* Hero */}
-        <section className="flex-1 flex items-center justify-between px-12 pb-[120px] pt-10 max-w-[1400px] mx-auto w-full gap-[60px] max-lg:flex-col max-lg:text-center max-lg:justify-center max-lg:px-6 max-lg:pb-[100px] max-lg:gap-10">
+        <section className="flex-1 flex items-center justify-center px-12 pb-[40px] pt-10 max-w-[1200px] mx-auto w-full gap-[60px] max-lg:flex-col max-lg:text-center max-lg:px-6 max-lg:pb-[100px] max-lg:gap-10">
           <div className="flex-1 max-w-[600px] max-lg:flex max-lg:flex-col max-lg:items-center">
             {/* Launch badge */}
             <div className="inline-flex items-center gap-2.5 px-[18px] py-2 bg-white/5 border border-white/10 rounded-full text-[13px] font-semibold tracking-widest uppercase text-gray-400 mb-8 font-[family-name:var(--font-space-grotesk)]">
               <span className="w-2 h-2 bg-indigo-600 rounded-sm animate-pulse" />
-              Launching 25 June, 2026
+              Launching Soon
             </div>
 
             <h1 className="font-[family-name:var(--font-space-grotesk)] text-[clamp(36px,5vw,56px)] font-bold leading-[1.1] tracking-tight mb-5">
